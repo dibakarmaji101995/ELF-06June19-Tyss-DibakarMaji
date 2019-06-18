@@ -1,0 +1,6 @@
+Java Archive(jar)::
+
+1.file extension is .jar.
+2. easy to transform java application from one location to another location.
+3. it contains package,.class and resoure file.
+4. 

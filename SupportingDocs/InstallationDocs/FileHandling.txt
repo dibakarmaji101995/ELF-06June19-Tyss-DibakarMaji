@@ -1,0 +1,10 @@
+1. for writting data into the file we use
+     1.FileOutputStream
+     2.BufferOutputStream
+     3.FileWriter
+     4.BufferWriter
+2. for read data from file we use
+     1.FileInputStream
+     2.BufferInputStream
+     3.FileReader
+     4.BufferReader

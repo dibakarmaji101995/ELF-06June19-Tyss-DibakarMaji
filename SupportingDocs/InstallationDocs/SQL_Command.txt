@@ -1,0 +1,35 @@
+DDl: create,alter,rename,drop,truncate
+
+1. create new database
+>>create database tyss;
+2. Giving all previllage to that db
+>>GRANT ALL PRIVILEGES ON tyss.* TO 'root'@'localhost';
+3. show db
+>> show database;
+4. use database
+>> use tyss;
+5. show tables
+>>show tables;
+6. create table
+>>create table student(id int(5) primary key auto_increment,name varchar(10),sal decimal(10,2));
+7.add new column
+>>alter table student add column jobdesc varcher(20);
+8. rename table name 
+>>rename table student employee;
+9. rename column name
+>>alter table student add column dept varchar(20);
+10. drop table 
+>>drop table student
+11. create table with constraints
+>> create table student(id int(5) primary key auto_increment not null,name varchar(10) not null,sal decimal(10,2) not null);
+12. truncate table
+>> truncate table employee;
+
+DML:(Data Manipulation Language) insert, update, delete
+
+13. insert values into table
+>>insert into student(name,sal) values('fargue',400);
+14. update sal to 500 whose id is 1
+>> update student set sal=800 where id=1;
+15. delete particular record by using where clause
+>>delete from mployee where id=1;
