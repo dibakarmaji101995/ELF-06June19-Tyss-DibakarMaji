@@ -16,7 +16,7 @@ public class HashMapTest {
         hm.put("four",4);
         // retrive map entries
         for(Map.Entry<String,Object> entry : hm.entrySet()) {
-        	System.out.println(entry.getKey()+","+entry.getValue());
+        	System.out.println(entry.getKey()+","+entry.getValue() );
         }
 	}
 

@@ -1,0 +1,12 @@
+# server cfgs
+server:
+   port: 4545
+   servlet: 
+      context-path: /DS
+# DataSource cfgs
+spring:
+  datasource:
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tyss
+    username: root
+    password: root     

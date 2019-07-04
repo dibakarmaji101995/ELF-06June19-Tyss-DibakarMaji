@@ -29,7 +29,8 @@ public class Student implements Comparable<Student>{
 	/* Logic to sort student w.r.t name */
 	@Override
 	public int compareTo(Student o) {
-		return this.name.compareTo(o.name);
+	//	return this.name.compareTo(o.name);
+		return this.percentage.compareTo(o.percentage);
 		
 	}
 

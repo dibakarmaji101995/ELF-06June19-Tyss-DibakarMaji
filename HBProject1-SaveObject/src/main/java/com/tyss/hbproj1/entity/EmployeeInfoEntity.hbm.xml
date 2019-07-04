@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.tyss.hbproj1.entity.EmployeeInfoEntity"
+		table="employee_info">
+		<id name="id" type="int">
+		    <column name="ID" length="5" />
+		    <generator class="increment"/>
+			
+		</id>
+		<property name="name" type="string">
+			<column name="NAME" />
+		</property>
+		<property name="age" type="int">
+			<column name="AGE" />
+		</property>
+		<property name="dob" type="date">
+			<column name="DOB" />
+		</property>
+		<property name="accNumber" type="long">
+			<column name="ACC_Number" />
+		</property>
+		<property name="desg" type="string">
+			<column name="DESIGNATION" />
+		</property>
+		<property name="phNo" type="long">
+			<column name="PHONE" />
+		</property>
+		<property name="emailId" type="string">
+			<column name="EMAIL_ID" />
+		</property>
+		<property name="gender" type="string">
+			<column name="GENDER" />
+		</property>
+		<property name="salary" type="double">
+			<column name="SALARY" />
+		</property>
+		<property name="joiningDate" type="date">
+			<column name="JOINING_DATE" />
+		</property>
+		<property name="mngrId" type="int">
+			<column name="MNGR_ID" />
+		</property>
+		<property name="deptId" type="int">
+			<column name="DEPT_ID" />
+		</property>
+	</class>
+
+</hibernate-mapping>

@@ -25,6 +25,7 @@ public class CreateFile {
 			Boolean result=file.createNewFile();
 			String res=result.toString();
 			logger.log(Level.INFO,String.format("Result %s %s","is",res));
+			
 			logger.log(Level.INFO,"done");
 		} catch (IOException e) {
 			logger.log(Level.SEVERE,e.getMessage());

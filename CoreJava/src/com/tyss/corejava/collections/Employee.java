@@ -17,4 +17,8 @@ public class Employee {
 		this.sal = sal;
 	}
 
+	public Employee() {
+		 
+	}
+
 }

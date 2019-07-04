@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Dependent class cfgs -->
+
+<bean id="engine" class="com.tyss.beans.Engine" primary="true">
+  <constructor-arg value="volvo engine"/>
+</bean>	
+
+<bean id="engine1" class="com.tyss.beans.Engine" >
+  <constructor-arg value="tyota engine"/>
+</bean>	
+
+<!-- Target class cfgs -->
+
+<bean id="car" class="com.tyss.beans.Car" autowire="byType" />
+
+</beans>

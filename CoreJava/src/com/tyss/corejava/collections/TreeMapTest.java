@@ -28,7 +28,7 @@ public class TreeMapTest {
         System.out.println("+++++++++++++++++++++++++++++++++++++++");
         Collection<Object> values=hm.values();
         values.forEach(value->{
-        	System.out.println(value);
+        	System.out.println(value); 
         });
 	}
 

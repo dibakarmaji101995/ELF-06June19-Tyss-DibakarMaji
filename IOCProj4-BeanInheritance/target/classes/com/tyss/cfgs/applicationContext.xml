@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Dependent class cfgs -->
+
+<bean id="customer" class="com.tyss.beans.Customer" abstract="true">
+</bean>
+
+<!-- Target class cfgs -->
+
+<bean id="indianCust" parent="customer">
+   <property name="name" value="diba"/>
+   <property name="age" value="20"/>
+   <property name="addrs" value="hyd"/>
+   <property name="phNo" value="7864949720"/>
+</bean>
+
+</beans>
