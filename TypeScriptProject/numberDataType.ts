@@ -1,0 +1,9 @@
+let sign:number=-10;
+let unsign:number=10;
+let float:number=12.5
+let double:number=12.511
+let decimale:number=12.51234568
+let exponent:number=2e3;
+let hexadecimale:number=0Xd00d;
+let octal:number=0o12;
+let binary:number=0b1010;
