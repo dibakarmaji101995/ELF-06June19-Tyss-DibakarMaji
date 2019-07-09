@@ -1,0 +1,1 @@
+let isInStock:boolean=true;
